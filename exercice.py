@@ -3,12 +3,8 @@
 def majuscule(mot):
     resultat = ''
     for lettre in mot:
-if 65 <= ord(in) <= 90:
-    print("La lettre était une majuscule")
-    d = ord(in) + 32
-else:
-    print("La lettre était une minuscule")
-    d = ord(in) - 32        
+        # TODO completer la fonction ici
+        
         resultat += lettre
     return resultat
 
