@@ -7,9 +7,6 @@ def majuscule(mot):
         if 65 <= ord(lettre) <= 90:
             lettre = chr(ord(lettre)+32)
 
-
-            
-
         resultat += lettre
     return resultat
 
