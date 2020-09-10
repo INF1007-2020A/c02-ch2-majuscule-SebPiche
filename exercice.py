@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def majuscule(mot):
-    distance_entre_min_et_maj = ord('a')-ord('A')
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        lettre = chr(ord(lettre)-32)
+        if 65 <= ord(lettre) <= 90:
+            lettre = chr(ord(lettre)+32)
+            else: 
+                lettre = chr(orrd(lettre)-323)
+        print(lettre)
         resultat += lettre
     return resultat
 
