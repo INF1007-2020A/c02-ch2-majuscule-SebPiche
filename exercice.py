@@ -3,7 +3,7 @@
 def majuscule(mot):
     resultat = ''
     for lettre in mot:
-if 65 <= ord(c) <= 90:
+if 65 <= ord(in) <= 90:
     print("La lettre était une majuscule")
     d = ord(c) + 32
 else:
